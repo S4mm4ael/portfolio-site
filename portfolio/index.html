@@ -13,46 +13,52 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container header-container">
-      <img class="logo" src="assets/svg/logo.svg" alt="logo">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#skills" class="nav-link" data-i18="skills">Skills</a></li>
-          <li class="nav-item"><a href="#portfolio" class="nav-link" data-i18="portfolio">Portfolio</a></li>
-          <li class="nav-item"><a href="#video" class="nav-link" data-i18="video">Video</a></li>
-          <li class="nav-item"><a href="#price" class="nav-link" data-i18="price">Price</a></li>
-          <li class="nav-item"><a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <div class="lang">
-        <div class="form_toggle">
-          <div class="form_toggle-item item-1">
-            <input id="fid-1" type="radio" name="radio" value="off" checked>
-            <label for="fid-1" class="en">en</label>
-          </div>
-          <p class="slash">&nbsp;/&nbsp;</p>
-          <div class="form_toggle-item item-2">
-            <input id="fid-2" type="radio" name="radio" value="on">
-            <label for="fid-2" class="ru">ru</label>
+  <div class="wrapper">
+    <div class="content">
+  
+  <header class="header header-container">
+    <div class="container">
+      <div class="header-row">
+        <a class="header-logo"></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#skills" class="nav-link" data-i18="skills">Skills</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link" data-i18="portfolio">Portfolio</a></li>
+            <li class="nav-item"><a href="#video" class="nav-link" data-i18="video">Video</a></li>
+            <li class="nav-item"><a href="#price" class="nav-link" data-i18="price">Price</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="lang">
+          <div class="form_toggle">
+            <div class="form_toggle-item item-1">
+              <input id="fid-1" type="radio" name="radio" value="off" checked>
+              <label for="fid-1" class="en">en</label>
+            </div>
+            <p>&nbsp;/&nbsp;</p>
+            <div class="form_toggle-item item-2">
+              <input id="fid-2" type="radio" name="radio" value="on">
+              <label for="fid-2" class="ru">ru</label>
+            </div>
           </div>
         </div>
+        <div class="hamburger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+        <div class="menubox">
+            <a href="#skills" class="nav-link" data-i18="skills">Skills</a>
+            <a href="#portfolio" class="nav-link" data-i18="portfolio">Portfolio</a>
+            <a href="#video" class="nav-link" data-i18="video">Video</a>
+            <a href="#price" class="nav-link" data-i18="price">Price</a>
+            <a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a>
+        </div>
+        <img class="logo theme-logo theme-black" src="assets/svg/carbon_sun.svg" alt="theme">
       </div>
-      <div class="hamburger">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-        <div class="line line3"></div>
-      </div>
-      <div class="menubox">
-          <a href="#skills" class="nav-link" data-i18="skills">Skills</a>
-          <a href="#portfolio" class="nav-link" data-i18="portfolio">Portfolio</a>
-          <a href="#video" class="nav-link" data-i18="video">Video</a>
-          <a href="#price" class="nav-link" data-i18="price">Price</a>
-          <a href="#contacts" class="nav-link" data-i18="contacts">Contacts</a>
-      </div>
-      <img class="logo theme-logo theme-black" src="assets/svg/carbon_sun.svg" alt="theme">
     </div>
   </header>
+
   <main class="main">
     <div class="container main-container">
       <section class="section section-hero" id="hero">
@@ -176,6 +182,9 @@
       </ul>
     </div>
   </footer>
+</div>
+
+</div>
   <script src="/s4mm4ael-JSFEPRESCHOOL/portfolio/index.js"></script>
 </body>
 </html>
