@@ -201,7 +201,7 @@ h3{
 .section-hero{
   padding-top: 160px;
   padding-left: 80px;
-  
+  margin: 0 -20px;
   height: 820px;
   background-image: url('assets/jpg/bg.jpg');
   background-position: center -90px;
@@ -264,7 +264,7 @@ h3{
     height: 72px;
     width: 390px;
     margin-top: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
   }
 }
 .button {
@@ -788,7 +788,7 @@ input:-webkit-autofill:active {
 }
 /*hamburger */
 .menubox{
-  display: block;
+  display: none;
   visibility: hidden;
   overflow-x: hidden;
   max-height: 1px;
